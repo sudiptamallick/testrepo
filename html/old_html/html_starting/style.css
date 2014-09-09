@@ -1,0 +1,29 @@
+* {/*-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing:border-box;*/ padding:0; margin:0;}
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video { padding:0; margin:0;}
+article,aside,details,figcaption,figure,footer,header,nav,section,summary {display: block;}
+audio,canvas,video {display: inline-block;}
+a{outline:none; text-decoration:none; border:none; display:inline-block; -webkit-transition: color 500ms ease-in-out;-moz-transition: color 500ms ease-in-out;-ms-transition: color 500ms ease-in-out;-o-transition: color 500ms ease-in-out;transition: color 500ms ease-in-out; color:#0E2248;}
+a:hover{color:#50709b!important;}
+img{ border:none; outline:none; display:inline-block; max-width:100%; height:auto;}
+figure{ display:inline-block;}
+ul, li{ list-style-type:none;}
+.spacer{font-size:0;line-height:0;clear:both;}	
+.more{ color:#0e2248;}
+.more:hover{ color:#50709b;} 
+input[type=submit],input[type=button]{outline:none!important; border:none!important; cursor:pointer;-webkit-transition:all 1000ms ease-in-out;-moz-transition:all 1000ms ease-in-out; transition:all 1000ms ease-in-out;}
+
+html, body{-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%; font:normal 14px/23px Arial, Helvetica, sans-serif; color:#9b9b9b; background-color:#e3f4fc;}
+
+h1, h2, h3{ font-family:Arial, Helvetica, sans-serif; font-weight:normal; margin:0 0 15px;}
+h1{ font-size:18px; line-height:30px; color:#9b9b9b; text-transform:uppercase;}
+h2{ font-size:14px; line-height:23px; color:#0e2248;}
+
+/* -------------------- general section end --------------------- */
+
+/* -------------------- outer section start -------------------- */
+.outer{ width:100%;}
+/* -------------------- contact start -------------------- */
+
+/* -------------------- contact end -------------------- */
+
+/* -------------------- outer section end -------------------- */

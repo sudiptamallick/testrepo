@@ -1,0 +1,157 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* ------------------------ reset css start -------------------------- */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {margin: 0;padding: 0;border: 0;font-size: 100%;font:inherit;vertical-align: baseline;}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {display: block;}
+audio,canvas,video {display: inline-block;}
+body {line-height: 1;}
+ol, ul, li {list-style: none;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after,q:before, q:after {content: '';content: none;}
+table {border-collapse: collapse;border-spacing: 0;}
+	
+/* ------------------------ reset css end -------------------------- */
+/* ------------------------ basic element CSS start -------------------------- */
+html, body{ font:normal 14px/20px 'Roboto', Arial, Helvetica, sans-serif; color:#333333; font-weight:400;}
+a{ display:inline-block; text-decoration:none; outline:none; transition:all 500ms ease-in-out;}
+a:hover{}
+h1{ font-size:28px; line-height:32px; color:#0191c8; font-weight:400; text-transform:uppercase; margin:0 0 15px;}
+h2{ font-weight:300; font-size:18px; line-height:22px; color:#0072bc; margin:0 0 5px;}
+h3{ font-size:28px; line-height:32px; font-weight:400; color:#242424; margin:0 0 15px; text-transform:uppercase;}
+/* ------------------------ basic element CSS end -------------------------- */
+
+/* ------------------------ commonly used classes start -------------------------- */
+.more{ height:46px; line-height:46px; border:1px solid #abb8c1; border-radius:3px; text-transform:uppercase; font-size:15px; color:#000; padding:0 44px 0 22px; background:url(images/arrow.png) 85% 50% no-repeat #f0f4f7;}
+/* ------------------------ commonly used classes end -------------------------- */
+
+/* ------------------------- specific selectors for pages start -------------------------- */
+/* ------------------------- specific selectors for pages end -------------------------- */
+
+/* ------------------------- template layout start ------------------------- */
+.outer{ width:100%;}
+/* --------------- header start -------------- */
+.header, .header2, .header3, .header4, .home_header{ width:100%; height:720px; background-image:url(images/header_bg.jpg); background-repeat:no-repeat;background-position:50% 50%; background-size:cover; background-color:#c3d3e0;}
+.home_header{ background-image:none; background-color:inherit;}
+.header2, .header3, .header4{ height:505px;}
+.header3{background-image:url(images/header_bg2.png); background-size:auto; background-position:100% 15%;}
+.header4{background-image:url(images/header_bg3.png); background-size:auto; background-position:100% 50%;}
+.header_top{ background:url(images/header_top_bg.png) 0 0 repeat;}
+.logo{ float:left;}
+.header_inner{ width:1000px; margin:0 auto; overflow:hidden; padding:30px 0;}
+.header_bottom{ width:100%;}
+.fixed_width{ width:1000px; margin:0 auto; overflow:hidden;}
+.slider_fixed_width{width:1000px; margin:0 auto;}
+/* --------------- nav start -------------- */
+.mainnav{ float:right;}
+.mainnav ul{ font-size:14px; line-height:42px; font-weight:300; border:1px solid #eaeaea; overflow:hidden; border-radius:3px; background-color:#fff;}
+.mainnav ul li, .footerlink li{ float:left;}
+.mainnav ul li a{ color:#434343; text-transform:uppercase; padding:0 14px;}
+.mainnav ul li a:hover, .mainnav ul li a.active{ background-color:#0072bc; color:#fff;}
+/* --------------- nav end -------------- */
+.h_slider_info, .h_slider_info_inner{ width:40%; margin:105px 0 0;}
+.h_slider_info_inner{width:45%;}
+.h_slider_info h1{ font-weight:700; font-size:31px; line-height:34px; color:#242424;}
+.h_slider_info p{ font-size:19px; line-height:25px; color:#00609f; margin:0 0 15px;}
+
+/* --------------- box slider start -------------- */
+.box_slider{ margin:80px 0 0; position:relative;}
+.box_slider ul{}
+.box_slider ul li{ float:left; width:240px; padding:1px; background:url(images/header_top_bg.png) 0 0 repeat; margin:0 0 0 9px;}
+/*.box_slider ul li:first-child{ margin:0;}*/
+.box_slider ul li div div{ padding:16px;}
+.box_slider ul li h2{ font-size:19px; line-height:75px; height:75px; color:#fff; text-transform:uppercase; font-weight:300; padding:0 16px; margin:0;}
+.box_slider ul li h2 span{ background:url(images/slider_head_icon.gif) 0 50% no-repeat; width:32px; height:75px; display:inline-block; float:left; margin:0 5px 0 0;}
+.box_slider ul li p{ font-size:13px; line-height:16px; color:#333333; margin:0 0 15px;}
+.box_slider ul li a.read_more{ font-size:11px; line-height:22px; height:22px; text-transform:uppercase; padding:0 13px; border:1px solid #7f8589; border-radius:3px;}
+
+.box_slider ul li:nth-of-type(1) h2, .box_slider ul li div.dark_blue h2{ background-color:#005b9a;}
+.box_slider ul li:nth-of-type(1) a.read_more, .box_slider ul li div.dark_blue a.read_more{ color:#0072bc;}
+
+.box_slider ul li:nth-of-type(2) h2, .box_slider ul li div.sky_blue h2{ background-color:#0191c8;}
+.box_slider ul li:nth-of-type(2) a.read_more, .box_slider ul li div.sky_blue a.read_more{ color:#0191c8;}
+.box_slider ul li:nth-of-type(2) h2 span, .box_slider ul li div.sky_blue h2 span{ background-position:-32px 50%;}
+
+.box_slider ul li:nth-of-type(3) h2, .box_slider ul li div.purple h2{ background-color:#691a41;}
+.box_slider ul li:nth-of-type(3) a.read_more, .box_slider ul li div.purple a.read_more{ color:#6e3c56;}
+.box_slider ul li:nth-of-type(3) h2 span, .box_slider ul li div.purple h2 span{ background-position:-64px 50%;}
+
+.box_slider ul li:nth-of-type(4) h2, .box_slider ul li div.pink h2{ background-color:#da609a;}
+.box_slider ul li:nth-of-type(4) a.read_more, .box_slider ul li div.pink a.read_more{ color:#c5739b;}
+.box_slider ul li:nth-of-type(4) h2 span, .box_slider ul li div.pink h2 span{ background-position:-96px 50%;}
+/* --------------- box slider end -------------- */
+
+/* --------------- header end -------------- */
+
+/* --------------- body start -------------- */
+.body{ width:100%; background-color:#fff; padding:50px 0 40px;}
+.cont_pnl{ overflow:hidden;}
+.cont_pnl img, .cont_pnl iframe{ float:left;}
+.cont_pnl p{ margin:0 0 15px; font-weight:300;}
+.cont_pnl p strong{ font-weight:500;}
+.cont_pnl h3{ font-size:18px; line-height:22px; font-weight:500; color:#0072bc; text-transform:none;}
+.cont_rht_algn, .cont_full_width{float:right; width:72%;}
+.cont_full_width{ width:100%; float:none;}
+.cont_rht_algn a, .cont_full_width a{ font-weight:500; font-style:italic; color:#333;}
+.cont_full_width a{ text-decoration:underline;}
+.cont_rht_algn ul, .cont_full_width ul{ font-weight:300; margin:0 0 15px;}
+.cont_rht_algn ul li, .cont_full_width ul li{ color:#0072bc; list-style:disc inside;}
+.cont_rht_algn ul li span, .cont_full_width ul li span{ color:#333;}
+.telephone label{ display:inline-block; width:9%;}
+
+.team_list{}
+.team_list li{ list-style:none!important; color:#333!important; border-top:1px solid #dce6ed; overflow:hidden; padding:20px 0;}
+.team_list li:first-child{ border:none; padding-top:0;}
+.team_list li:last-child{ padding-bottom:0;}
+.team_list li a{ text-decoration:none;}
+.team_list li img{ float:left;}
+/* --------------- body end -------------- */
+
+/* ----------- footer start ---------- */
+.footer{ width:100%;}
+.foot_top{ background-image:url(images/foot_bg.jpg); background-position:50% 50%; background-repeat:no-repeat; background-size:cover; min-height:305px;}
+.foot_bg_rpt{ background:url(images/footer_top_bg.png) 0 0 repeat; min-height:305px; }
+.footer_inner{ padding:35px 0; overflow:hidden;}
+.f_our_ser, .f_our_team, .f_mak_appo{ min-height:235px;}
+
+.f_our_ser{ float:left; width:29%; padding:0 1.5% 0 0;}
+.f_our_ser ul{ margin:10px 0 0;}
+.f_our_ser ul li{ color:#151719; list-style:disc inside; margin:0 0 2px;}
+.footer p{ color:#151719; font-weight:300;}
+.footer a{ color:#0072bc;}
+
+.f_our_team{ float:left; width:35%; border-left:1px solid #b2b2b2; border-right:1px solid #b2b2b2; padding:0 2%}
+.f_our_team_list{}
+.f_our_team_list li{ float:left; width:47%; margin:0 0 15px;}
+.f_our_team_list li:nth-of-type(2){ float:right;}
+.f_our_team img{ border:1px solid #b2b2b2; display:inline-block; margin:0 0 8px;}
+.f_our_team h4{ font-size:17px; line-height:21px; color:#0072bc; margin:0 0 4px;}
+.f_our_team p{}
+
+.f_mak_appo{ float:right; width:28%; padding:0 0 0 2%;}
+.f_mak_appo strong{ font-weight:500; font-size:16px;}
+
+.foot_bottom{ background-color:#f1f4f8; padding:25px 0;}
+.foot_bottom p{ float:right; font-size:13px; color:#888;}
+.footerlink{ text-transform:uppercase; float:left;}
+.footerlink li{ margin:0 0 0 15px;}
+.footerlink li:first-child{ margin:0;}
+.footerlink li a{ color:#434343;}
+.footerlink li a:hover, .footerlink li a.active{ color:#0072BC;}
+/* ------------------------- template layout end ------------------------- */
+
+
